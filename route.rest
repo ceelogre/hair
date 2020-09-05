@@ -1,0 +1,26 @@
+
+GET http://localhost:9000/blogs
+
+###
+
+POST http://localhost:9000/subscriber
+Content-Type: application/json
+
+{
+    "email":"helloo@gmail.com",
+    "password":"1234"
+   
+}
+
+###
+
+
+DELETE http://localhost:9000/blogs/5f3d5138e81ac814446fef36
+
+###
+
+PATCH http://localhost:9000/blogs/5f3d56637fc2361188895ca3
+Content-Type: application/json
+{
+    "title":"Covid-19"
+}
