@@ -3,7 +3,6 @@ const router = express.Router();
 const articles = require("../../models/articles");
 const CheckAuth = require("../signin/middleware/check-auth");
 
-
 // Getting all
 router.get('/v1/blogs', async (req, res) => {
     
